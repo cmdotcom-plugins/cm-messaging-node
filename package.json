@@ -1,0 +1,29 @@
+{
+  "name": "cm-messaging-node",
+  "version": "0.0.1",
+  "description": "Package to make it very easy to send text messages with CM.com",
+  "keywords": [
+    "cm",
+    "cm.com",
+    "sms",
+    "messaging",
+    "text",
+    "rcs"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Eric Smekens",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "~3.5.1",
+    "request": "~2.85.0",
+    "http": "^0.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.0",
+    "typescript": "~2.8.3"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
