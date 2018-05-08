@@ -1,6 +1,6 @@
 {
   "name": "cm-messaging-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Package to make it very easy to send text messages with CM.com",
   "keywords": [
     "cm",
@@ -10,8 +10,12 @@
     "text",
     "rcs"
   ],
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EricSmekens/cm-messaging-node.git"
+  },
+  "main": "dist/lib/index.js",
+  "types": "dist/lib/index.d.ts",
   "author": "Eric Smekens",
   "license": "MIT",
   "dependencies": {
