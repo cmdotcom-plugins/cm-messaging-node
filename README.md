@@ -1,5 +1,7 @@
 ## cm-messaging-node: A helper library to send text messages.
 
+[![NPM](https://nodei.co/npm/cm-messaging-node.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/cm-messaging-node/)
+
 Want to send text-messages in your Node.js application? Then you are at the right place.
 
 The package is currently in beta, but if you want to get all the functionalities, go to: [CM.com API Docs](https://docs.cmtelecom.com/bulk-sms-api/v1.0)
@@ -15,7 +17,7 @@ const messagingApi = require("cm-messaging-node");
 const yourProductToken = "";
 const myMessageApi = new messagingApi.MessageApiClient(yourProductToken);
 
-const result = myMessageApi.SendTextMessage("0031612345678", "TestSender", "Hello world?!");
+const result = myMessageApi.SendTextMessage("00316012345678", "TestSender", "Hello world?!");
 
 result.then((result) => {
     console.log(result);
