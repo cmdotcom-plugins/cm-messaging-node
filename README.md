@@ -3,6 +3,7 @@
 [![NPM](https://nodei.co/npm/cm-messaging-node.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/cm-messaging-node/)
 
 [![Build Status](https://travis-ci.org/EricSmekens/cm-messaging-node.svg?branch=master)](https://travis-ci.org/EricSmekens/cm-messaging-node)
+[![Codacy](https://api.codacy.com/project/badge/grade/3c7f5de6ce734762981d3e689de7b941)](https://www.codacy.com/project/EricSmekens/cm-messaging-node)
 
 Want to send text-messages in your Node.js application? Then you are at the right place.
 
