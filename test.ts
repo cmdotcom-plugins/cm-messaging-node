@@ -4,7 +4,7 @@ import {MessageApiClient} from "./lib";
 const yourProductToken = "";
 const myMessageApi = new MessageApiClient(yourProductToken);
 
-const result = myMessageApi.SendTextMessage("0031612345678", "TestSender", "Hello world?!");
+const result = myMessageApi.SendTextMessage("00316012345678", "TestSender", "Hello world?!");
 
 result.then((result) => {
     console.log(result);

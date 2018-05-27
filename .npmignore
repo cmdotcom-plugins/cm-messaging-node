@@ -20,3 +20,5 @@ typescript-node-client/
 package
 
 .idea/
+.github/
+.travis.yml
