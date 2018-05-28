@@ -17,6 +17,7 @@ class MessageApiClient {
         messageEnvelope.messages.authentication.productToken = this.productToken;
 
         const msg = new CM.Message();
+        msg.customGrouping = "cm-messaging-node";
         msg.from = from;
         msg.body = new CM.MessageBody();
         msg.body.type = "AUTO";
