@@ -5,10 +5,13 @@ tsconfig.*.json
 tslint.json
 **/webpack.config.js
 
+# Coverage directory used by tools like istanbul
+coverage
 
+# nyc test coverage
+.nyc_output
 
 __tests__
-coverage
 node_modules
 src
 docs

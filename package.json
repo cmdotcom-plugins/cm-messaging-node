@@ -33,13 +33,14 @@
     "ts-node": "~6.0.5",
     "tslint": "~5.10.0",
     "typescript": "~2.8.3",
-    "nyc": "~11.8.0"
+    "nyc": "~11.8.0",
+    "codecov": "^3.0.1"
   },
   "scripts": {
     "build": "tsc",
     "lint": "tslint --project ./",
-    "test": "mocha -r ts-node/register spec/**/*.spec.ts",
-    "test:coverage": "nyc mocha spec/**/*.spec.ts"
+    "test": "nyc mocha spec/**/*.spec.ts",
+    "posttest": "nyc report --reporter=json && codecov -f coverage/*.json"
   },
   "nyc": {
     "include": [
