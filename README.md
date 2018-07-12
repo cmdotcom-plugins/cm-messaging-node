@@ -2,9 +2,9 @@
 
 [![NPM](https://nodei.co/npm/cm-messaging-node.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/cm-messaging-node/)
 
-[![Build Status](https://travis-ci.org/EricSmekens/cm-messaging-node.svg?branch=master)](https://travis-ci.org/EricSmekens/cm-messaging-node)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d51474d6130b4db08ae8a8c57dace8ea)](https://www.codacy.com/app/EricSmekens/cm-messaging-node?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=EricSmekens/cm-messaging-node&amp;utm_campaign=Badge_Grade)
-[![codecov](https://codecov.io/gh/EricSmekens/cm-messaging-node/branch/master/graph/badge.svg)](https://codecov.io/gh/EricSmekens/cm-messaging-node)
+[![Build Status](https://travis-ci.org/CMTelecom/cm-messaging-node.svg?branch=master)](https://travis-ci.org/CMTelecom/cm-messaging-node)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d51474d6130b4db08ae8a8c57dace8ea)](https://www.codacy.com/app/CMTelecom/cm-messaging-node?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=CMTelecom/cm-messaging-node&amp;utm_campaign=Badge_Grade)
+[![codecov](https://codecov.io/gh/CMTelecom/cm-messaging-node/branch/master/graph/badge.svg)](https://codecov.io/gh/CMTelecom/cm-messaging-node)
 
 Want to send text-messages in your Node.js application? Then you are at the right place.
 

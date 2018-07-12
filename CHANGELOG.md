@@ -1,3 +1,6 @@
+## [1.0.1] - 2018-07-12
+- No changes, but npm publish was required because of ownership transfer on Github.
+
 ## [1.0.0] - 2018-06-05
 ### Notice
 While the amount of features is still limited,
