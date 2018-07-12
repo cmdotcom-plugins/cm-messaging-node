@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/EricSmekens/cm-messaging-node.git"
+    "url": "https://github.com/CMTelecom/cm-messaging-node.git"
   },
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
