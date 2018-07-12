@@ -8,7 +8,7 @@
 
 Want to send text-messages in your Node.js application? Then you are at the right place.
 
-The package is currently limited in features compared to the CM gateway, but if you want to get all the functionalities, go to: [CM.com API Docs](https://docs.cmtelecom.com/bulk-sms-api/v1.0)
+The package is currently limited in features compared to the CM gateway, but if you want to get all the functionalities, go to: [CM.com API Docs](https://docs.cmtelecom.com/bulk-sms/v1.0)
 
 ### Usage
 #### Node.JS
