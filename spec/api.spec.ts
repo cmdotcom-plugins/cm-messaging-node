@@ -33,4 +33,13 @@ describe("MessageApiClient", () => {
         });
     });
 
+    it("should create a valid http(s) request, when sending an array of recipients", () => {
+        const yourProductToken = "cccc";
+        const myMessageApi = new MessageApiClient(yourProductToken);
+        const response = myMessageApi.SendTextMessages(["00316012345678"], "MockedTest", "Hi doggie.");
+
+        expect(response).eventually.fulfilled.and.to.satisfy((response) => {
+            return response.body.details === "Created 1 message(s)";
+        });
+    });
 });

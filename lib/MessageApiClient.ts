@@ -9,6 +9,10 @@ class MessageApiClient {
     }
 
     public SendTextMessage(to: string, from: string, message: string) {
+        return this.SendTextMessages([to], from, message);
+    }
+
+    public SendTextMessages(to: string[], from: string, message: string) {
         const api = new CM.MessagesApi();
 
         const messageEnvelope = new CM.MessageEnvelope();
@@ -23,10 +27,7 @@ class MessageApiClient {
         msg.body.type = "AUTO";
         msg.body.content = message;
 
-        const recipient: CM.Recipient = {
-            number: to
-        };
-        msg.to = [recipient];
+        msg.to = this.createRecipients(to);
 
         messageEnvelope.messages.msg = new Array<CM.Message>();
         messageEnvelope.messages.msg.push(msg);
@@ -38,6 +39,14 @@ class MessageApiClient {
         return result;
     }
 
+    private createRecipients(recipients: string[]) {
+        return recipients.map((number: string) => {
+            const recipient: CM.Recipient = {
+                number: number
+            };
+            return recipient;
+        })
+    }
 }
 
 export {MessageApiClient};

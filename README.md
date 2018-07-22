@@ -29,5 +29,10 @@ result.then((result) => {
 });
 ```
 
+or send multiple with SendTextMessages:
+```javascript
+const result = myMessageApi.SendTextMessage(["00316012345678","003160000000"], "TestSender", "Hello world?!");
+```
+
 ### License
 cm-messaging-node is under the MIT license. See LICENSE file.
