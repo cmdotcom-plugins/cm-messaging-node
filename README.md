@@ -31,7 +31,7 @@ result.then((result) => {
 
 or send multiple with SendTextMessages:
 ```javascript
-const result = myMessageApi.SendTextMessage(["00316012345678","003160000000"], "TestSender", "Hello world?!");
+const result = myMessageApi.SendTextMessages(["00316012345678","003160000000"], "TestSender", "Hello world?!");
 ```
 
 ### License
